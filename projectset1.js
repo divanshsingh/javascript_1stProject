@@ -6,6 +6,8 @@ buttons.forEach(function (button) {
   button.addEventListener('click', function (e) {
     console.log(e);
     console.log(e.target);
+    // +++++++++++++++++++  with help of "if statement"  ++++++++++++++++++
+    
     // if (e.target.id === 'grey') {
     //   body.style.backgroundColor = e.target.id;
     // }
@@ -18,6 +20,8 @@ buttons.forEach(function (button) {
     // if (e.target.id === 'yellow') {
     //   body.style.backgroundColor = e.target.id;
     // }
+    
+    //+++++++++++++++++ with help of "switch statement"  ++++++++++++++++++++++++
     switch (e.target.id) {
       case 'grey':
         body.style.backgroundColor = e.target.id;
